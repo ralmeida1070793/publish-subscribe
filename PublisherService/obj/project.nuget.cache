@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6gQMt/L5ZWjgjy+jyspZaAXlpuUWpL2CiTppzxCYPVrF6k/HUZfJFc+j1BSb0IG07QPObKR7kfr6mkPCVm3r+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\PublishSubscribe\\PublisherService\\PublisherService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ralme\\.nuget\\packages\\ninject\\4.0.0-beta.1\\ninject.4.0.0-beta.1.nupkg.sha512"
+  ],
+  "logs": []
+}

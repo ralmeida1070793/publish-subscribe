@@ -1,0 +1,17 @@
+C:\Projects\PublishSubscribe\PublisherService\bin\Debug\net6.0\PublisherService.deps.json
+C:\Projects\PublishSubscribe\PublisherService\bin\Debug\net6.0\PublisherService.dll
+C:\Projects\PublishSubscribe\PublisherService\bin\Debug\net6.0\PublisherService.pdb
+C:\Projects\PublishSubscribe\PublisherService\bin\Debug\net6.0\Publisher.dll
+C:\Projects\PublishSubscribe\PublisherService\bin\Debug\net6.0\Subscribers.dll
+C:\Projects\PublishSubscribe\PublisherService\bin\Debug\net6.0\Publisher.pdb
+C:\Projects\PublishSubscribe\PublisherService\bin\Debug\net6.0\Subscribers.pdb
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.csproj.AssemblyReference.cache
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.AssemblyInfoInputs.cache
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.AssemblyInfo.cs
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.csproj.CoreCompileInputs.cache
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.csproj.CopyComplete
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.dll
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\refint\PublisherService.dll
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\PublisherService.pdb
+C:\Projects\PublishSubscribe\PublisherService\obj\Debug\net6.0\ref\PublisherService.dll

@@ -1,6 +1,7 @@
 ﻿using Ninject.Modules;
 using Publisher;
 using Publisher.MessageStrategy;
+using Subscribers;
 
 namespace PublisherService;
 
@@ -13,6 +14,8 @@ public class NinjectModuleOverrides: NinjectModule
     {
         Bind<IPublisher<int>>().To<Publisher<int>>();
         Bind<IPublisher<string>>().To<Publisher<string>>();
+        Bind<IMessagePresenter<int>>().To<NumberPresenter>();
+        Bind<IMessagePresenter<string>>().To<TextPresenter>();
         Bind<IMessageStrategy<int>>().To<IntStrategy>();
         Bind<IMessageStrategy<string>>().To<StringStrategy>();
         Bind<MessageTransform<string>>().ToSelf().InSingletonScope();

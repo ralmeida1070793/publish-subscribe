@@ -1,12 +1,15 @@
 using Moq;
 using Publisher;
 using PublisherService;
+using Subscribers;
 
 namespace Tests;
 
 public class PublisherServiceTests
 {
     private Mock<IPublisher<int>> _intPublisher;
+    private Mock<IMessagePresenter<int>> _intMessagePresenter;
+    private Mock<IMessagePresenter<string>> _stringMessagePresenter;
     private Mock<IPublisher<string>> _stringPublisher;
     private IPublishService _publishLogic; 
 
@@ -15,7 +18,15 @@ public class PublisherServiceTests
     {
         _intPublisher = new Mock<IPublisher<int>>();
         _stringPublisher = new Mock<IPublisher<string>>();
-        _publishLogic = new PublishService(_intPublisher.Object, _stringPublisher.Object);
+        _intMessagePresenter = new Mock<IMessagePresenter<int>>();
+        _stringMessagePresenter = new Mock<IMessagePresenter<string>>();
+        
+        _publishLogic = new PublishService(
+            _intPublisher.Object, 
+            _stringPublisher.Object,
+            _intMessagePresenter.Object,
+            _stringMessagePresenter.Object
+        );
     }
 
     [Test]

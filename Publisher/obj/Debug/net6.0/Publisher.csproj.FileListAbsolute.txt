@@ -1,0 +1,12 @@
+C:\Projects\PublishSubscribe\Publisher\bin\Debug\net6.0\Publisher.deps.json
+C:\Projects\PublishSubscribe\Publisher\bin\Debug\net6.0\Publisher.dll
+C:\Projects\PublishSubscribe\Publisher\bin\Debug\net6.0\Publisher.pdb
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\Publisher.csproj.AssemblyReference.cache
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfoInputs.cache
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfo.cs
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\Publisher.csproj.CoreCompileInputs.cache
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\Publisher.dll
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\refint\Publisher.dll
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\Publisher.pdb
+C:\Projects\PublishSubscribe\Publisher\obj\Debug\net6.0\ref\Publisher.dll
