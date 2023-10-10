@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LhUDhfCgHj34isoKm6KCIyU/LXrPeUrB9wQe0yxo2oQXP1ed7rIeT4cAONH3UOEFDw8irD0cSCXq+E6eLT1aCg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ralme\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

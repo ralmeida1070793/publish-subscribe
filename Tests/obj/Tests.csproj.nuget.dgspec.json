@@ -1,17 +1,76 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\PublishSubscribe\\Tests\\Tests.csproj": {}
+    "C:\\Projects\\VismaEvents\\Publisher\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\PublishSubscribe\\PublisherService\\PublisherService.csproj": {
+    "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PublishSubscribe\\PublisherService\\PublisherService.csproj",
-        "projectName": "PublisherService",
-        "projectPath": "C:\\Projects\\PublishSubscribe\\PublisherService\\PublisherService.csproj",
+        "projectUniqueName": "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj",
+        "projectName": "Commands",
+        "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj",
         "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PublishSubscribe\\PublisherService\\obj\\",
+        "outputPath": "C:\\Projects\\VismaEvents\\Publisher\\Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\VismaEvents\\Publisher\\CustomerAPI\\CustomerAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\VismaEvents\\Publisher\\CustomerAPI\\CustomerAPI.csproj",
+        "projectName": "CustomerAPI",
+        "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\CustomerAPI\\CustomerAPI.csproj",
+        "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\VismaEvents\\Publisher\\CustomerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +85,224 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj": {
-                "projectPath": "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj"
+              "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj": {
+                "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj"
               },
-              "C:\\Projects\\PublishSubscribe\\Subscribers\\Subscribers.csproj": {
-                "projectPath": "C:\\Projects\\PublishSubscribe\\Subscribers\\Subscribers.csproj"
+              "C:\\Projects\\VismaEvents\\Publisher\\Publisher\\Publisher.csproj": {
+                "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Publisher\\Publisher.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\VismaEvents\\Publisher\\MessageBroker\\MessageBroker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\VismaEvents\\Publisher\\MessageBroker\\MessageBroker.csproj",
+        "projectName": "MessageBroker",
+        "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\MessageBroker\\MessageBroker.csproj",
+        "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\VismaEvents\\Publisher\\MessageBroker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj": {
+                "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj"
+              },
+              "C:\\Projects\\VismaEvents\\Publisher\\Subscriber\\Subscriber.csproj": {
+                "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Subscriber\\Subscriber.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NNanomsg": {
+              "target": "Package",
+              "version": "[0.5.2, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[4.0.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\VismaEvents\\Publisher\\Publisher\\Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\VismaEvents\\Publisher\\Publisher\\Publisher.csproj",
+        "projectName": "Publisher",
+        "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Publisher\\Publisher.csproj",
+        "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\VismaEvents\\Publisher\\Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\VismaEvents\\Publisher\\MessageBroker\\MessageBroker.csproj": {
+                "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\MessageBroker\\MessageBroker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\VismaEvents\\Publisher\\Subscriber\\Subscriber.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\VismaEvents\\Publisher\\Subscriber\\Subscriber.csproj",
+        "projectName": "Subscriber",
+        "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Subscriber\\Subscriber.csproj",
+        "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\VismaEvents\\Publisher\\Subscriber\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj": {
+                "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Commands\\Commands.csproj"
               }
             }
           }
@@ -70,124 +342,14 @@
         }
       }
     },
-    "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj": {
+    "C:\\Projects\\VismaEvents\\Publisher\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj",
-        "projectName": "Publisher",
-        "projectPath": "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj",
-        "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PublishSubscribe\\Publisher\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Projects\\PublishSubscribe\\Subscribers\\Subscribers.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Projects\\PublishSubscribe\\Subscribers\\Subscribers.csproj",
-        "projectName": "Subscribers",
-        "projectPath": "C:\\Projects\\PublishSubscribe\\Subscribers\\Subscribers.csproj",
-        "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PublishSubscribe\\Subscribers\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj": {
-                "projectPath": "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Projects\\PublishSubscribe\\Tests\\Tests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Projects\\PublishSubscribe\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Projects\\VismaEvents\\Publisher\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Projects\\PublishSubscribe\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\ralme\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PublishSubscribe\\Tests\\obj\\",
+        "outputPath": "C:\\Projects\\VismaEvents\\Publisher\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ralme\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -202,11 +364,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\PublishSubscribe\\PublisherService\\PublisherService.csproj": {
-                "projectPath": "C:\\Projects\\PublishSubscribe\\PublisherService\\PublisherService.csproj"
-              },
-              "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj": {
-                "projectPath": "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj"
+              "C:\\Projects\\VismaEvents\\Publisher\\CustomerAPI\\CustomerAPI.csproj": {
+                "projectPath": "C:\\Projects\\VismaEvents\\Publisher\\CustomerAPI\\CustomerAPI.csproj"
               }
             }
           }
@@ -221,6 +380,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"

@@ -1,8 +1,36 @@
 {
   "version": 2,
-  "dgSpecHash": "hVeF8AS+hO+R43r2MjCi0A88LKQh1HHgZHflKO3X15rQYXJJ60BETJBHG9nzdD175cc91O21QmQqrMzwRF/mQA==",
+  "dgSpecHash": "Xc6JKKkhNhQe0X8NWoLSfiLK/M51RszuOBtekK4sexOCX/3+PuHswb4pYgOQ5abOU5jcmoRgxgvyDQjCWTpbWA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\PublishSubscribe\\Publisher\\Publisher.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Projects\\VismaEvents\\Publisher\\Publisher\\Publisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ralme\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\ninject\\4.0.0-beta.1\\ninject.4.0.0-beta.1.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\nnanomsg\\0.5.2\\nnanomsg.0.5.2.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\ralme\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NNanomsg 0.5.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NNanomsg",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

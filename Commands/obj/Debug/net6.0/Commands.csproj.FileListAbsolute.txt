@@ -1,0 +1,12 @@
+C:\Projects\VismaEvents\Publisher\Commands\bin\Debug\net6.0\Commands.deps.json
+C:\Projects\VismaEvents\Publisher\Commands\bin\Debug\net6.0\Commands.dll
+C:\Projects\VismaEvents\Publisher\Commands\bin\Debug\net6.0\Commands.pdb
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\Commands.csproj.AssemblyReference.cache
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\Commands.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\Commands.AssemblyInfoInputs.cache
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\Commands.AssemblyInfo.cs
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\Commands.csproj.CoreCompileInputs.cache
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\Commands.dll
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\refint\Commands.dll
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\Commands.pdb
+C:\Projects\VismaEvents\Publisher\Commands\obj\Debug\net6.0\ref\Commands.dll

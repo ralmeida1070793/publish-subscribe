@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d47085d_002D180b_002D4cf4_002D8386_002D8b2f3ac42d02/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateCustomer_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5ACEF7B0-B2C1-4A66-A326-C2FBBBFEA249::net6.0::Tests.APITests.CustomerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5ACEF7B0-B2C1-4A66-A326-C2FBBBFEA249::net6.0::Tests.APITests.CommandHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5ACEF7B0-B2C1-4A66-A326-C2FBBBFEA249::net6.0::Tests.APITests.PublisherTests.PublishRegisterCustomer_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5ACEF7B0-B2C1-4A66-A326-C2FBBBFEA249::net6.0::Tests.APITests.PublisherTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

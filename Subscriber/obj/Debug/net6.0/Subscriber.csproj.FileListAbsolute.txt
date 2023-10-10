@@ -1,0 +1,15 @@
+C:\Projects\VismaEvents\Publisher\Subscriber\bin\Debug\net6.0\Subscriber.deps.json
+C:\Projects\VismaEvents\Publisher\Subscriber\bin\Debug\net6.0\Subscriber.dll
+C:\Projects\VismaEvents\Publisher\Subscriber\bin\Debug\net6.0\Subscriber.pdb
+C:\Projects\VismaEvents\Publisher\Subscriber\bin\Debug\net6.0\Commands.dll
+C:\Projects\VismaEvents\Publisher\Subscriber\bin\Debug\net6.0\Commands.pdb
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.csproj.AssemblyReference.cache
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfoInputs.cache
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfo.cs
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CoreCompileInputs.cache
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CopyComplete
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.dll
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\refint\Subscriber.dll
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\Subscriber.pdb
+C:\Projects\VismaEvents\Publisher\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll
